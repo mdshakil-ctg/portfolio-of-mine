@@ -8,9 +8,9 @@ const ContactMe = () => {
       </div>
       <div className="w-2/3">
         <div className="p-10">
-        <h3 className="mb-2 text-white font-bold text-sm">Touch By _______</h3>
+        <h3 className="mb-2 text-white font-bold text-sm">Want to discuss _______</h3>
         <p className="text-black text-3xl font-bold mb-2">
-          Contact <span className="text-white">Me</span>
+          Lets <span className="text-white">Talk</span>
         </p>
         <p className="text-gray-500 font-semibold">4043, Raozan, Chittagong.</p>
         <p className="text-gray-500 font-semibold mb-10">+880 1815 149399</p>

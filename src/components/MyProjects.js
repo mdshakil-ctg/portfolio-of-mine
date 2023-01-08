@@ -11,9 +11,9 @@ const MyProjects = () => {
           My <span className="text-yellow-500">Projects</span>
         </p>
         <p className='text-gray-500 text-center'>There is some web application which <br /> I want to share.</p>
-        <div className='w-full grid grid-cols-1 md:grid-cols-3 pl-16 mt-10'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-3 md:pl-16 mt-10'>
          {/* project card  */}
-         <div className="card w-80 glass">
+         <div className="card md:w-80 glass">
   <figure><img className='h-52 w-full' src={resalePlanet} alt="car!"/></figure>
   <div className="card-body hover:border-b-2 border-[#F57B7A] rounded-2xl">
     <h2 className="card-title text-white font-semibold">Resale Planet</h2>
@@ -23,7 +23,7 @@ const MyProjects = () => {
     </div>
   </div>
 </div>
-         <div className="card w-80 glass">
+         <div className="card md:w-80 glass">
   <figure><img className='h-52 w-full' src={resalePlanet2} alt="car!"/></figure>
   <div className="card-body hover:border-b-2 border-[#F57B7A] rounded-2xl">
     <h2 className="card-title text-white font-semibold">Photo Hunters</h2>
@@ -33,7 +33,7 @@ const MyProjects = () => {
     </div>
   </div>
 </div>
-         <div className="card w-80 glass">
+         <div className="card md:w-80 glass">
   <figure><img className='h-52 w-full' src={resalePlanet3} alt="car!"/></figure>
   <div className="card-body hover:border-b-2 border-[#F57B7A] rounded-2xl">
     <h2 className="card-title text-white font-semibold">Deep Web School</h2>

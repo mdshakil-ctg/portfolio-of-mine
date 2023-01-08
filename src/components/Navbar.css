@@ -1,0 +1,59 @@
+.btn-nav{
+   position: relative;
+   width: 80px;
+   height: 40px;
+   display: inline-block;
+}
+
+.btn-nav::before,
+.btn-nav::after{
+   content: '';
+   position: absolute;
+   inset: 0;
+   background: #f00;
+   transition: 0.5s;
+}
+
+.btn-nav:hover::before{
+   inset: -2px;
+}
+
+.btn-nav:hover::after{
+   inset: -2px;
+   filter:blur(15px)
+}
+
+.btn-nav::before,
+.btn-nav::after{
+   background: linear-gradient(60deg, pink, #000, #000, pink);
+   /* background: linear-gradient(45deg, #7FE593, #000, #000, #b91c1c); */
+}
+
+.btn-nav span{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   z-index: 10;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* font-size: 1.2rem; */
+   /* text-transform: uppercase; */
+   background: black;
+   letter-spacing: 2px;
+   /* border: 1px solid rgba(196, 142, 5, 0.333); */
+   overflow: hidden;
+}
+/* .btn-nav span::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -50%;
+   width: 100%;
+   height: 100%;
+   transform: skew(25deg);
+   background: rgba(167, 146, 94, 0.426);
+} */
