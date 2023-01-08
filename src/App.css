@@ -1,5 +1,27 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #000000;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(17, 16, 16); 
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F57B7A; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(202, 34, 34); 
 }
 
 .App-logo {
