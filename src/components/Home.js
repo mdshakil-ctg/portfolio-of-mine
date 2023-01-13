@@ -4,7 +4,6 @@ import ContactMe from "./ContactMe";
 import MyProjects from "./MyProjects";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import TimeoutExample from "./TimeoutExample";
 
 const Home = () => {
   function reveal() {
@@ -56,7 +55,14 @@ const Home = () => {
         </div>
       </div>
       
+      <div>
+        <section className="text-white my-project">
+          <div class="container reveal fade-bottom">
       <AboutMe></AboutMe>
+            
+          </div>
+        </section>
+      </div>
       <div>
         <section className="text-white my-project">
           <div class="container reveal fade-bottom">
@@ -64,8 +70,13 @@ const Home = () => {
           </div>
         </section>
       </div>
+      <div>
+        <section className="text-white my-project">
+          <div class="container reveal fade-bottom">
       <ContactMe></ContactMe>
-      <TimeoutExample></TimeoutExample>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };

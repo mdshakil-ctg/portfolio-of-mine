@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <div id="contact-me" className="bg-yellow-500 h-[350px] flex mt-24 md:mt-48">
+    <div id="contact-me" className="bg-yellow-500 h-[350px] flex mt-24 mb-12 md:mt-48">
       <div className="w-1/3">
          <img className="h-full w-full" src="https://i.ibb.co/GcWB5dV/homepage2.jpg" alt="" />
       </div>
